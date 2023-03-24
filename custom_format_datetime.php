@@ -2,7 +2,7 @@
 
 class DateTimeFormat{
 
-    public static function HowTimeAgo($date) {
+    public static function HowTimeAgo(DateTime $date) {
     
         $interval = $date->diff(new \DateTime(date("Y-m-d H:i:s")));
 
@@ -35,3 +35,5 @@ class DateTimeFormat{
         return $formatted_date;
     }
 }
+
+?>
