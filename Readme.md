@@ -1,8 +1,9 @@
 ### Simple class to format date
 <p>
 You can use this class when you need to get a date according to the elapsed time between a previous date and the current one, like:
-- 8 minutes ago (interval changes)
-- 1 Year 5 days 4 hours 2 seconds ago
+8 minutes ago
+or
+1 Year 5 days 4 hours 2 seconds ago
 </p>
 
 #### Example:
